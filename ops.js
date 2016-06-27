@@ -38,6 +38,10 @@ function printFib(n) {
   return;
 }
 
+function minus(n1,n2) {
+  return n1-n2;
+}
+
 console.log(plus(6,9));
 console.log(plus(8,9));
 console.log(plus(8,9));
@@ -56,3 +60,6 @@ console.log(isPalindrome("key"));
 
 printFib(100);
 printFib(65);
+
+console.log(minus(13,14));
+console.log(minus(13,15));
